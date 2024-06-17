@@ -1,1 +1,1 @@
-Code for the STM32C011F4U6 on the ROA72309 Q3-IoT board controlling hardware switches for 3.8V and 3.3V supply to the NRF9160 SoC. Initial timeout is 300s and hardcode once the nRF9160 is sending a watchdog kick a 16 bit value in 0.1 s increments is send and becomes the new timeout.
+Code for the STM32C011F4U6 on the ROA72309 Q3-IoT board controlling hardware switches for 3.8V and 3.3V supply to the NRF9160 SoC. Initial timeout is 300s and hardcoded. Once the nRF9160 is sending a watchdog kick a 16 bit value in 0.1 s increments is send and becomes the new timeout.
